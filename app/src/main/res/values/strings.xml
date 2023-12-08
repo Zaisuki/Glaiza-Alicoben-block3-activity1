@@ -2,4 +2,8 @@
     <string name="app_name">GlaizaJoyce-Block3-Quiz</string>
     <string name="notes_app">NOTES APP</string>
     <string name="search_notes">Search</string>
+    <string name="title">TITLE</string>
+    <string name="your_note_title">YOUR NOTE TITLE</string>
+    <string name="subtitle">SUBTITLE</string>
+    <string name="type">Type...</string>
 </resources>
