@@ -27,8 +27,8 @@ public class Notes extends AppCompatActivity {
         inputNote = findViewById(R.id.inputNote);
         Date = findViewById(R.id.Date);
 
-        // Use OnBackPressedCallback to handle the back button press
-        OnBackPressedCallback callback = new OnBackPressedCallback(true /* enabled by default */) {
+
+        OnBackPressedCallback callback = new OnBackPressedCallback(true ) {
             @Override
             public void handleOnBackPressed() {
                 Date.setText(new SimpleDateFormat("EEEE, dd MMMM yyyy :mm a", Locale.getDefault()).format(new Date()));
