@@ -85,6 +85,7 @@
                 android:layout_marginTop="@dimen/_15sdp"
                 android:layout_marginEnd="@dimen/_12sdp"
                 android:background="@null"
+                android:fontFamily="@font/country"
                 android:hint="@string/subtitle"
                 android:importantForAutofill="no"
                 android:includeFontPadding="false"
